@@ -9,7 +9,7 @@ Use the following lines near the top of your `Podfile`:
 
 ```
 source 'https://github.com/AudioKit/Specs.git'
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
 ```
 
 You may comment out the first source line if you wish to stick to the mainstream releases. Once you update your sources, you will need to run either `pod update` or `pod install --repo-update` to update your repos.
@@ -17,5 +17,5 @@ You may comment out the first source line if you wish to stick to the mainstream
 New releases pushed to this spec repo are considered pre-release, and will not get picked up by CocoaPods automatically. You need to specify the version you want to use, like so:
 
 ```
-pod 'AudioKit', '=4.7.2.b1'
+pod 'AudioKit', '=5.0.b1'
 ```
